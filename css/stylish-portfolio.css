@@ -46,74 +46,25 @@ h6 {
 }
 
 /* Map */
-.map {
-  height: 30rem;
+.BrandContainer
+{
+       width: 22em;
 }
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
+.BrandContainerTitle
+{
+       vertical-align: top;
+       float: right;
+       width: 10em;
 }
-
-.map iframe {
-  pointer-events: none;
+.BrandContainerImage
+{
+       vertical-align: top;
+       float: left;
 }
-
-.scroll-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  display: none;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: white;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 45px;
+.BrandContainerImage img
+{
+       width: 10em;
 }
-
-.scroll-to-top:focus, .scroll-to-top:hover {
-  color: white;
-}
-
-.scroll-to-top:hover {
-  background: #343a40;
-}
-
-.scroll-to-top i {
-  font-weight: 800;
-}
-
-.masthead {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.masthead h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
